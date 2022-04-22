@@ -2,27 +2,16 @@
 
 Use the latest version of etcd, directly pull the official image to run.Will run 3 nodes, the configuration can be edited in the .env file.
 
-
+<br />
 
 ## Usage
 
 ### 1. update configuration
-
 Edit the `.env` file and modify the run configuration.
-
-### 2. create a network
-
-```
-docker network create etcd-net
-```
-
-### 3. run
-
+### 2. run
 ```
 docker-compose up -d
 ```
-
-
 
 ## Other
 
